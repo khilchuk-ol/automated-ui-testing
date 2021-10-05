@@ -1,28 +1,25 @@
 import { expect as chaiExpect } from "chai";
+import PinPage from "../pages/pin.page.js";
 
 describe("Pinterest pin", () => {
   it("should show the photo", () => {
-    browser.url("https://www.pinterest.com/pin/674484481701538807/");
+    PinPage.open();
 
-    const pinPhoto = $('div[data-test-id="closeup-image"] img');
-    expect(pinPhoto).toBeDisplayed();
+    expect(PinPage.pinPhoto).toBeDisplayed();
   });
 
   it("should show the pin title", async () => {
-    const title = $('div[data-test-id="closeup-title"] h1');
     //expect(title).toHaveTextContaining("Pic");
 
-    title.getText().then((text) => {
+    PinPage.pinTitle.getText().then((text) => {
       chaiExpect(text).to.contain("Pic");
     });
   });
 
-  it("should contain clickable link to user profile", () => {
-    const link = $('div[data-test-id="maybe-clickthrough-link"] a');
-
+  it("should contain clickable link to author profile", () => {
     //expect(link).toHaveLinkContaining("MidoRedwan");
 
-    link.getAttribute("href").then((href) => {
+    PinPage.authorProfileLink.getAttribute("href").then((href) => {
       chaiExpect(href).to.contain("MidoRedwan");
       expect(link).toBeClickable();
     });
