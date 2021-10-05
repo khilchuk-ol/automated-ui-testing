@@ -1,6 +1,7 @@
 {
   "name": "automated-ui-testing",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/khilchuk-ol/automated-ui-testing#readme",
   "dependencies": {
-    "@wdio/cli": "^7.14.0"
+    "@wdio/cli": "^7.14.0",
+    "chai": "^4.3.4"
   },
   "devDependencies": {
     "@wdio/local-runner": "^7.13.2",

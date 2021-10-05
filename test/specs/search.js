@@ -1,3 +1,5 @@
+import { expect as chaiExpect } from "chai";
+
 describe("Pinterest search", () => {
   it("should open the main page and have the right title", () => {
     browser.url("https://www.pinterest.com/");
@@ -11,14 +13,20 @@ describe("Pinterest search", () => {
     searchInput.addValue("forest aesthetic");
     searchBtn.click();
 
-    expect(searchInput).toHaveValue("forest aesthetic");
+    searchInput.getAttribute("value").then((val) => {
+      chaiExpect(val).to.be.equal("forest aesthetic");
+    });
+
+    //expect(searchInput).toHaveValue("forest aesthetic");
   });
 
   it("should redirect to a new page and verify the search box text", () => {
     const searchInput = $("#searchBoxContainer input");
 
-    expect(searchInput).toHaveValue("forest aesthetic");
-    expect(browser).toHaveTitle("Pinterest");
+    searchInput.getAttribute("value").then((val) => {
+      chaiExpect(val).to.be.equal("forest aesthetic");
+      expect(browser).toHaveTitle("Pinterest");
+    });
   });
 
   it("should change filter value", () => {
@@ -28,6 +36,10 @@ describe("Pinterest search", () => {
     const filterOpt = $('div[data-test-id="search-filter-boards]');
     filterOpt.click();
 
-    expect(filter).toHaveText("Boards");
+    //expect(filter).toHaveText("Boards");
+
+    filter.getText().then((text) => {
+      chaiExpect(text).to.be.equal("Boards");
+    });
   });
 });
