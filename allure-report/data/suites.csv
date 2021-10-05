@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Oct 05 23:32:31 EEST 2021","Tue Oct 05 23:32:31 EEST 2021","10","","Pinterest pin","","Pinterest pin","should show the pin title","should show the pin title",""
+"passed","Tue Oct 05 23:32:30 EEST 2021","Tue Oct 05 23:32:30 EEST 2021","30","","Pinterest search","","Pinterest search","should search for a product and verify the search text value","should search for a product and verify the search text value",""
+"passed","Tue Oct 05 23:32:31 EEST 2021","Tue Oct 05 23:32:31 EEST 2021","15","","Pinterest pin","","Pinterest pin","should contain clickable link to author profile","should contain clickable link to author profile",""
+"passed","Tue Oct 05 23:32:30 EEST 2021","Tue Oct 05 23:32:31 EEST 2021","298","","Pinterest pin","","Pinterest pin","should show the photo","should show the photo",""
+"passed","Tue Oct 05 23:32:30 EEST 2021","Tue Oct 05 23:32:31 EEST 2021","416","","Pinterest search","","Pinterest search","should redirect to a new page and verify the search box text","should redirect to a new page and verify the search box text",""
+"passed","Tue Oct 05 23:32:30 EEST 2021","Tue Oct 05 23:32:30 EEST 2021","40","","Pinterest search","","Pinterest search","should open the main page and have the right title","should open the main page and have the right title",""
+"passed","Tue Oct 05 23:32:31 EEST 2021","Tue Oct 05 23:32:31 EEST 2021","17","","Pinterest search","","Pinterest search","should change filter value","should change filter value",""

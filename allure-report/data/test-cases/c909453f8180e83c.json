@@ -1,0 +1,58 @@
+{
+  "uid" : "c909453f8180e83c",
+  "name" : "should change filter value",
+  "fullName" : "Pinterest search.should change filter value",
+  "historyId" : "6817df96a8f33d567d896907215fbad2",
+  "time" : {
+    "start" : 1633465423052,
+    "stop" : 1633465423058,
+    "duration" : 6
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "addFeature is not a function",
+  "statusTrace" : "TypeError: addFeature is not a function\n                    at Context.<anonymous> (file:///D:/KPI/3_year/KPI/labs/automated-ui-testing/test/specs/search.js:38:5)\n                    at Context.executeAsync (D:\\KPI\\3_year\\KPI\\labs\\automated-ui-testing\\node_modules\\@wdio\\utils\\build\\shim.js:323:27)\n                    at Context.testFrameworkFnWrapper (D:\\KPI\\3_year\\KPI\\labs\\automated-ui-testing\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "testClass",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "testMethod",
+    "value" : "should change filter value"
+  }, {
+    "name" : "package",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.61"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c909453f8180e83c.json",
+  "parameterValues" : [ "chrome-94.0.4606.61" ]
+}

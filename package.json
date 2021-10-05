@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/khilchuk-ol/automated-ui-testing#readme",
   "dependencies": {
+    "@wdio/allure-reporter": "^7.14.1",
     "@wdio/cli": "^7.14.0",
     "chai": "^4.3.4"
   },

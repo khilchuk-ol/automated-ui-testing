@@ -2,9 +2,11 @@ import { expect as chaiExpect } from "chai";
 import PinPage from "../pages/pin.page.js";
 
 describe("Pinterest pin", () => {
-  it("should show the photo", () => {
+  before(() => {
     PinPage.open();
+  });
 
+  it("should show the photo", () => {
     expect(PinPage.pinPhoto).toBeDisplayed();
   });
 

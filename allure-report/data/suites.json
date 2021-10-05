@@ -1,0 +1,104 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Pinterest search",
+    "children" : [ {
+      "name" : "should open the main page and have the right title",
+      "uid" : "a85a0267ea03da92",
+      "parentUid" : "89539b36349ba22c6a48ee9de0a4158f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465950521,
+        "stop" : 1633465950561,
+        "duration" : 40
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "should search for a product and verify the search text value",
+      "uid" : "706d60cfc9658450",
+      "parentUid" : "89539b36349ba22c6a48ee9de0a4158f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465950565,
+        "stop" : 1633465950595,
+        "duration" : 30
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "should redirect to a new page and verify the search box text",
+      "uid" : "a6d33dca57ad0dee",
+      "parentUid" : "89539b36349ba22c6a48ee9de0a4158f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465950604,
+        "stop" : 1633465951020,
+        "duration" : 416
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "should change filter value",
+      "uid" : "90284a4c3eae7228",
+      "parentUid" : "89539b36349ba22c6a48ee9de0a4158f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465951022,
+        "stop" : 1633465951039,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    } ],
+    "uid" : "89539b36349ba22c6a48ee9de0a4158f"
+  }, {
+    "name" : "Pinterest pin",
+    "children" : [ {
+      "name" : "should show the photo",
+      "uid" : "253601652f6a4050",
+      "parentUid" : "9dd14923cb4f79735b73d4aa2fb5d931",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465950741,
+        "stop" : 1633465951039,
+        "duration" : 298
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "should show the pin title",
+      "uid" : "fd5d7d45d879d130",
+      "parentUid" : "9dd14923cb4f79735b73d4aa2fb5d931",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465951041,
+        "stop" : 1633465951051,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    }, {
+      "name" : "should contain clickable link to author profile",
+      "uid" : "f87c90110eb2d940",
+      "parentUid" : "9dd14923cb4f79735b73d4aa2fb5d931",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465951054,
+        "stop" : 1633465951069,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.61" ]
+    } ],
+    "uid" : "9dd14923cb4f79735b73d4aa2fb5d931"
+  } ]
+}

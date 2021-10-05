@@ -1,0 +1,102 @@
+{
+  "uid" : "51fe2a545bea8d64",
+  "name" : "should open the main page and have the right title",
+  "fullName" : "Pinterest search.should open the main page and have the right title",
+  "historyId" : "498bc58b08d01aa906311b21708d1a44",
+  "time" : {
+    "start" : 1633464551294,
+    "stop" : 1633464551529,
+    "duration" : 235
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1633464551297,
+        "stop" : 0,
+        "duration" : -1633464551297
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/title",
+        "time" : {
+          "start" : 1633464551527,
+          "stop" : 0,
+          "duration" : -1633464551527
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "4cddc9040cc548b0",
+        "name" : "Request",
+        "source" : "4cddc9040cc548b0.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "testClass",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open the main page and have the right title"
+  }, {
+    "name" : "package",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.61"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "51fe2a545bea8d64.json",
+  "parameterValues" : [ "chrome-94.0.4606.61" ]
+}

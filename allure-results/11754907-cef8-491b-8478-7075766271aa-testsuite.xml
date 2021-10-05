@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633464551294' stop='1633464551651'>
+    <name>Pinterest search</name>
+    <title>Pinterest search</title>
+    <test-cases>
+        <test-case start='1633464551294' status='passed' stop='1633464551529'>
+            <name>should open the main page and have the right title</name>
+            <title>should open the main page and have the right title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633464551297' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='63a066b9-ecee-4048-8e74-8e90f073584b-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps>
+                        <step start='1633464551527' status='undefined'>
+                            <name>GET /session/:sessionId/title</name>
+                            <title>GET /session/:sessionId/title</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1633464551531' status='broken' stop='1633464551639'>
+            <name>should search for a product and verify the search text value</name>
+            <title>should search for a product and verify the search text value</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>allureReporter.addSeverity is not a function</message>
+                <stack-trace>TypeError: allureReporter.addSeverity is not a function
+                    at Context.&lt;anonymous> (file:///D:/KPI/3_year/KPI/labs/automated-ui-testing/test/specs/search.js:16:20)
+                    at Context.executeAsync (D:\KPI\3_year\KPI\labs\automated-ui-testing\node_modules\@wdio\utils\build\shim.js:323:27)
+                    at Context.testFrameworkFnWrapper (D:\KPI\3_year\KPI\labs\automated-ui-testing\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1633464551639' status='passed' stop='1633464551647'>
+            <name>should redirect to a new page and verify the search box text</name>
+            <title>should redirect to a new page and verify the search box text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps>
+                <step start='1633464551644' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1a0fd493-a95a-4547-b83c-4e9cdbc2a5fa-attachment.json' type='application/json' size='69'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1633464551649' status='broken' stop='1633464551650'>
+            <name>should change filter value</name>
+            <title>should change filter value</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.61'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>allureReporter.addFeature is not a function</message>
+                <stack-trace>TypeError: allureReporter.addFeature is not a function
+                    at Context.&lt;anonymous> (file:///D:/KPI/3_year/KPI/labs/automated-ui-testing/test/specs/search.js:36:20)
+                    at Context.executeAsync (D:\KPI\3_year\KPI\labs\automated-ui-testing\node_modules\@wdio\utils\build\shim.js:323:27)
+                    at Context.testFrameworkFnWrapper (D:\KPI\3_year\KPI\labs\automated-ui-testing\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

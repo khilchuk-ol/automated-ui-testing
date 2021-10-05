@@ -1,0 +1,87 @@
+{
+  "uid" : "b7ecda8d6908d0e6",
+  "name" : "should show the pin title",
+  "fullName" : "Pinterest pin.should show the pin title",
+  "historyId" : "fd846aa8d42bb5da06cf88dd2d9cbc96",
+  "time" : {
+    "start" : 1633459301804,
+    "stop" : 1633459301815,
+    "duration" : 11
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1633459301810,
+        "stop" : 0,
+        "duration" : -1633459301810
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eae1b58d690a7434",
+        "name" : "Request",
+        "source" : "eae1b58d690a7434.json",
+        "type" : "application/json",
+        "size" : 82
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Pinterest pin"
+  }, {
+    "name" : "testClass",
+    "value" : "Pinterest pin"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show the pin title"
+  }, {
+    "name" : "package",
+    "value" : "Pinterest pin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.61"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b7ecda8d6908d0e6.json",
+  "parameterValues" : [ "chrome-94.0.4606.61" ]
+}

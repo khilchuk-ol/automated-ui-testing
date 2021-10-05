@@ -1,0 +1,71 @@
+[ {
+  "uid" : "253601652f6a4050",
+  "name" : "should show the photo",
+  "time" : {
+    "start" : 1633465950741,
+    "stop" : 1633465951039,
+    "duration" : 298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "706d60cfc9658450",
+  "name" : "should search for a product and verify the search text value",
+  "time" : {
+    "start" : 1633465950565,
+    "stop" : 1633465950595,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6d33dca57ad0dee",
+  "name" : "should redirect to a new page and verify the search box text",
+  "time" : {
+    "start" : 1633465950604,
+    "stop" : 1633465951020,
+    "duration" : 416
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90284a4c3eae7228",
+  "name" : "should change filter value",
+  "time" : {
+    "start" : 1633465951022,
+    "stop" : 1633465951039,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd5d7d45d879d130",
+  "name" : "should show the pin title",
+  "time" : {
+    "start" : 1633465951041,
+    "stop" : 1633465951051,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f87c90110eb2d940",
+  "name" : "should contain clickable link to author profile",
+  "time" : {
+    "start" : 1633465951054,
+    "stop" : 1633465951069,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a85a0267ea03da92",
+  "name" : "should open the main page and have the right title",
+  "time" : {
+    "start" : 1633465950521,
+    "stop" : 1633465950561,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

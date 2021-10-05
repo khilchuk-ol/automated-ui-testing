@@ -1,0 +1,108 @@
+{
+  "uid" : "1aedcf2050491782",
+  "name" : "should show the photo",
+  "fullName" : "Pinterest pin.should show the photo",
+  "historyId" : "475de6b299ae26a060d6e82cd0149a02",
+  "time" : {
+    "start" : 1633464951310,
+    "stop" : 1633464951534,
+    "duration" : 224
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1633464951314,
+        "stop" : 0,
+        "duration" : -1633464951314
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1633464951525,
+          "stop" : 0,
+          "duration" : -1633464951525
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "791de4398f215399",
+          "name" : "Request",
+          "source" : "791de4398f215399.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "272831e573a12d74",
+        "name" : "Request",
+        "source" : "272831e573a12d74.json",
+        "type" : "application/json",
+        "size" : 64
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Pinterest pin"
+  }, {
+    "name" : "testClass",
+    "value" : "Pinterest pin"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show the photo"
+  }, {
+    "name" : "package",
+    "value" : "Pinterest pin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.61"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1aedcf2050491782.json",
+  "parameterValues" : [ "chrome-94.0.4606.61" ]
+}

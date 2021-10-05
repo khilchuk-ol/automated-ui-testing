@@ -1,0 +1,189 @@
+{
+  "uid" : "706d60cfc9658450",
+  "name" : "should search for a product and verify the search text value",
+  "fullName" : "Pinterest search.should search for a product and verify the search text value",
+  "historyId" : "b9e914636876835ef15a7ae33f64c417",
+  "time" : {
+    "start" : 1633465950565,
+    "stop" : 1633465950595,
+    "duration" : 30
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1633465950572,
+        "stop" : 0,
+        "duration" : -1633465950572
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1633465950576,
+          "stop" : 0,
+          "duration" : -1633465950576
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1633465950582,
+            "stop" : 0,
+            "duration" : -1633465950582
+          },
+          "status" : "unknown",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1633465950590,
+              "stop" : 0,
+              "duration" : -1633465950590
+            },
+            "status" : "unknown",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "4c6006fd7ef5b307",
+              "name" : "Request",
+              "source" : "4c6006fd7ef5b307.json",
+              "type" : "application/json",
+              "size" : 69
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 1,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "19b53b4c1aa4508",
+          "name" : "Request",
+          "source" : "19b53b4c1aa4508.json",
+          "type" : "application/json",
+          "size" : 69
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d5243e727d3b0f8e",
+        "name" : "Request",
+        "source" : "d5243e727d3b0f8e.json",
+        "type" : "application/json",
+        "size" : 67
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "testClass",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "testMethod",
+    "value" : "should search for a product and verify the search text value"
+  }, {
+    "name" : "package",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cfb8433820ccca4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465515785,
+        "stop" : 1633465515997,
+        "duration" : 212
+      }
+    }, {
+      "uid" : "db856ebc34b15f13",
+      "status" : "broken",
+      "statusDetails" : "addSeverity is not a function",
+      "time" : {
+        "start" : 1633465422993,
+        "stop" : 1633465423000,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "fcec363559cf99eb",
+      "status" : "broken",
+      "statusDetails" : "allureReporter.addSeverity is not a function",
+      "time" : {
+        "start" : 1633464951025,
+        "stop" : 1633464951028,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "e4cfb56b39f38ac6",
+      "status" : "broken",
+      "statusDetails" : "allureReporter.addSeverity is not a function",
+      "time" : {
+        "start" : 1633464551531,
+        "stop" : 1633464551639,
+        "duration" : 108
+      }
+    }, {
+      "uid" : "4767ee5115efb0a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633459300591,
+        "stop" : 1633459300721,
+        "duration" : 130
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "706d60cfc9658450.json",
+  "parameterValues" : [ "chrome-94.0.4606.61" ]
+}

@@ -1,0 +1,144 @@
+{
+  "uid" : "a6d33dca57ad0dee",
+  "name" : "should redirect to a new page and verify the search box text",
+  "fullName" : "Pinterest search.should redirect to a new page and verify the search box text",
+  "historyId" : "a489a4d898c3665ca497c950e914101d",
+  "time" : {
+    "start" : 1633465950604,
+    "stop" : 1633465951020,
+    "duration" : 416
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1633465950605,
+        "stop" : 0,
+        "duration" : -1633465950605
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1633465950609,
+          "stop" : 0,
+          "duration" : -1633465950609
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "abc704adcc06002d",
+          "name" : "Request",
+          "source" : "abc704adcc06002d.json",
+          "type" : "application/json",
+          "size" : 69
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "testClass",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "testMethod",
+    "value" : "should redirect to a new page and verify the search box text"
+  }, {
+    "name" : "package",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "97c5c48a32b55d55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465516001,
+        "stop" : 1633465516005,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "fe15a917cacf6fe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465423001,
+        "stop" : 1633465423045,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "d17a45425beb6e0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633464951029,
+        "stop" : 1633464951037,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "dc68fb9eb5ca3323",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633464551639,
+        "stop" : 1633464551647,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "bd29c801b8232f5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633459300729,
+        "stop" : 1633459300733,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6d33dca57ad0dee.json",
+  "parameterValues" : [ "chrome-94.0.4606.61" ]
+}

@@ -1,0 +1,189 @@
+{
+  "uid" : "90284a4c3eae7228",
+  "name" : "should change filter value",
+  "fullName" : "Pinterest search.should change filter value",
+  "historyId" : "6817df96a8f33d567d896907215fbad2",
+  "time" : {
+    "start" : 1633465951022,
+    "stop" : 1633465951039,
+    "duration" : 17
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1633465951023,
+        "stop" : 0,
+        "duration" : -1633465951023
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1633465951026,
+          "stop" : 0,
+          "duration" : -1633465951026
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1633465951029,
+            "stop" : 0,
+            "duration" : -1633465951029
+          },
+          "status" : "unknown",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1633465951035,
+              "stop" : 0,
+              "duration" : -1633465951035
+            },
+            "status" : "unknown",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "3e5e1260c42989b8",
+              "name" : "Request",
+              "source" : "3e5e1260c42989b8.json",
+              "type" : "application/json",
+              "size" : 84
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 1,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "653d43ab5a350b0b",
+          "name" : "Request",
+          "source" : "653d43ab5a350b0b.json",
+          "type" : "application/json",
+          "size" : 84
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d93ee17099b92de8",
+        "name" : "Request",
+        "source" : "d93ee17099b92de8.json",
+        "type" : "application/json",
+        "size" : 84
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "testClass",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "testMethod",
+    "value" : "should change filter value"
+  }, {
+    "name" : "package",
+    "value" : "Pinterest search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3529578372664e8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465516006,
+        "stop" : 1633465516116,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "c909453f8180e83c",
+      "status" : "broken",
+      "statusDetails" : "addFeature is not a function",
+      "time" : {
+        "start" : 1633465423052,
+        "stop" : 1633465423058,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "2a9c1fa77fe83a03",
+      "status" : "broken",
+      "statusDetails" : "allureReporter.addFeature is not a function",
+      "time" : {
+        "start" : 1633464951040,
+        "stop" : 1633464951135,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "6ab5b30941232c0f",
+      "status" : "broken",
+      "statusDetails" : "allureReporter.addFeature is not a function",
+      "time" : {
+        "start" : 1633464551649,
+        "stop" : 1633464551650,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "31d2f17a6a567202",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633459300740,
+        "stop" : 1633459300763,
+        "duration" : 23
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90284a4c3eae7228.json",
+  "parameterValues" : [ "chrome-94.0.4606.61" ]
+}

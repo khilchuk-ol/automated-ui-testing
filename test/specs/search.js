@@ -1,9 +1,13 @@
 import { expect as chaiExpect } from "chai";
+
 import SearchPage from "../pages/search.page.js";
 
 describe("Pinterest search", () => {
-  it("should open the main page and have the right title", () => {
+  before(() => {
     SearchPage.open();
+  });
+
+  it("should open the main page and have the right title", () => {
     expect(browser).toHaveTitle("Pinterest");
   });
 
@@ -27,7 +31,6 @@ describe("Pinterest search", () => {
 
   it("should change filter value", () => {
     SearchPage.searchFilterDropDown.click();
-
     SearchPage.searchFilterBoardsOption.click();
 
     //expect(filter).toHaveText("Boards");

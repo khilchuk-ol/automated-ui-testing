@@ -1,0 +1,181 @@
+{
+  "uid" : "253601652f6a4050",
+  "name" : "should show the photo",
+  "fullName" : "Pinterest pin.should show the photo",
+  "historyId" : "475de6b299ae26a060d6e82cd0149a02",
+  "time" : {
+    "start" : 1633465950741,
+    "stop" : 1633465951039,
+    "duration" : 298
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1633465950744,
+        "stop" : 0,
+        "duration" : -1633465950744
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1633465951030,
+          "stop" : 0,
+          "duration" : -1633465951030
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1633465951036,
+            "stop" : 0,
+            "duration" : -1633465951036
+          },
+          "status" : "unknown",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "52455d4d0ffd81ac",
+          "name" : "Request",
+          "source" : "52455d4d0ffd81ac.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "21f7929aa3a2ea6b",
+        "name" : "Request",
+        "source" : "21f7929aa3a2ea6b.json",
+        "type" : "application/json",
+        "size" : 64
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Pinterest pin"
+  }, {
+    "name" : "testClass",
+    "value" : "Pinterest pin"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show the photo"
+  }, {
+    "name" : "package",
+    "value" : "Pinterest pin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ef095ea7cd9411e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465521198,
+        "stop" : 1633465521363,
+        "duration" : 165
+      }
+    }, {
+      "uid" : "5a71fdbbe6468c23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465423085,
+        "stop" : 1633465423348,
+        "duration" : 263
+      }
+    }, {
+      "uid" : "736298df841dd14c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465213067,
+        "stop" : 1633465213099,
+        "duration" : 32
+      }
+    }, {
+      "uid" : "1aedcf2050491782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633464951310,
+        "stop" : 1633464951534,
+        "duration" : 224
+      }
+    }, {
+      "uid" : "c799ad4f963a1680",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633464700283,
+        "stop" : 1633464700746,
+        "duration" : 463
+      }
+    }, {
+      "uid" : "e8f6f814fda74ff1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633464551296,
+        "stop" : 1633464551645,
+        "duration" : 349
+      }
+    }, {
+      "uid" : "bbc04772f4c15f09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633459301779,
+        "stop" : 1633459301800,
+        "duration" : 21
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "253601652f6a4050.json",
+  "parameterValues" : [ "chrome-94.0.4606.61" ]
+}

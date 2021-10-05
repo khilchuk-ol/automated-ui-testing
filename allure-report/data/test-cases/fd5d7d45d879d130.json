@@ -1,0 +1,160 @@
+{
+  "uid" : "fd5d7d45d879d130",
+  "name" : "should show the pin title",
+  "fullName" : "Pinterest pin.should show the pin title",
+  "historyId" : "fd846aa8d42bb5da06cf88dd2d9cbc96",
+  "time" : {
+    "start" : 1633465951041,
+    "stop" : 1633465951051,
+    "duration" : 10
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1633465951043,
+        "stop" : 0,
+        "duration" : -1633465951043
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1633465951046,
+          "stop" : 0,
+          "duration" : -1633465951046
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3b19ece611f21d62",
+          "name" : "Request",
+          "source" : "3b19ece611f21d62.json",
+          "type" : "application/json",
+          "size" : 82
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Pinterest pin"
+  }, {
+    "name" : "testClass",
+    "value" : "Pinterest pin"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show the pin title"
+  }, {
+    "name" : "package",
+    "value" : "Pinterest pin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "59b3f71e5461c850",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465521365,
+        "stop" : 1633465521373,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "3b83e7a26abf4834",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465423350,
+        "stop" : 1633465423362,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "11f7dae36fdf4fef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633465213101,
+        "stop" : 1633465213109,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "ef437c2b4820be00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633464951536,
+        "stop" : 1633464951543,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "432704fdcc11db61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633464700749,
+        "stop" : 1633464700756,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "9bd5a8705d7c00fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633464551646,
+        "stop" : 1633464551663,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "b7ecda8d6908d0e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633459301804,
+        "stop" : 1633459301815,
+        "duration" : 11
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd5d7d45d879d130.json",
+  "parameterValues" : [ "chrome-94.0.4606.61" ]
+}
